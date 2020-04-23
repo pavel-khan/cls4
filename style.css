@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300&display=swap");
+
+body {
+  font-family: "Roboto Condensed", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: #5cbaff;
+}
+.header-section {
+  width: 1400px;
+  margin: auto;
+  text-align: center;
+}
+
+.header-section nav {
+}
+.header-section nav ul {
+  list-style: none;
+  display: inline-flex;
+  text-align: center;
+}
+.header-section nav ul li {
+  margin: 15px;
+}
+.header-section nav ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  font-size: 18px;
+}
+.header-section nav ul li a img {
+  width: 40px;
+  height: 40px;
+}
+.header-section nav ul li a span {
+  text-transform: capitalize;
+  color: #36393ab8;
+  font-weight: 900;
+  font-size: 20px;
+}
+.logo {
+}
+.body-section {
+  width: 100%;
+  margin: auto;
+}
+.left-body {
+  width: 40%;
+  background: #5cbbff;
+  float: left;
+  height: 700px;
+}
+.left-body .left-img {
+  width: 100px;
+  padding: 75px 1px 34px 68px;
+}
+.left-body .right-img {
+  width: 385px;
+  position: absolute;
+  top: 232px;
+  left: 52px;
+}
+.right-body {
+  background: #0092ff;
+  width: 60%;
+  float: left;
+}
+.from-section {
+  width: 48%;
+  margin: auto;
+  padding: 150px 0;
+}
+.text-container {
+  width: 419px;
+}
+.text-container p {
+  color: white;
+  font-size: 20px;
+}
+.text-container p span {
+  font-size: 39px;
+  display: block;
+  font-weight: 600;
+}
+form h2 {
+  text-transform: capitalize;
+  color: white;
+  font-size: 29px;
+  font-weight: 400;
+}
+form input {
+  display: block;
+  margin: 13px 0;
+  width: 100%;
+  height: 50px;
+  font-size: 20px;
+  text-transform: capitalize;
+  border: none;
+  border-radius: 3px;
+}
+input[type="submit"] {
+  width: 140px;
+  color: #5cbbff;
+  border: none;
+  border-radius: 3px;
+  text-transform: uppercase;
+  margin-top: 40px;
+  font-size: 20px;
+  transition-duration: 0.7s;
+}
+input[type="submit"]:hover {
+  width: 150px;
+  background-color: #5cbbff;
+  color: white;
+  font-size: 22px;
+}
+..otherwise {
+}
+.otherwise span {
+  font-weight: 400;
+  font-size: 18px;
+  color: white;
+}
+.otherwise p {
+  margin-top: 50px;
+}
+.otherwise a {
+  text-decoration: none;
+  color: white;
+  margin-left: 10px;
+  font-weight: 100;
+}
+.otherwise a:hover {
+  color: #5cbbff;
+  font-size: 22px;
+  font-weight: 400;
+}
